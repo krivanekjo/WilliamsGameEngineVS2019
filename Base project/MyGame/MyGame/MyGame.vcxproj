@@ -87,7 +87,9 @@
     <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="laser.cpp" />
     <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="Spaceship.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h" />
@@ -96,9 +98,15 @@
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="laser.h" />
+    <ClInclude Include="Spaceship.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\laser.png" />
+    <Image Include="Resources\Spaceship.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
